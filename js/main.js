@@ -36,6 +36,11 @@ $(document).ready(function() {
     questions = questions_by_topic[topic];
   });
 
+  // -------------------------------
+  // Create audio context
+  // -------------------------------
+  a = new AudioContext() 
+
 });
 
 
@@ -76,6 +81,7 @@ function next() {
 
   // Animate
   bar.animate(1.0);
+
 }
 
 
@@ -85,8 +91,18 @@ function start() {
   }, 5000)
 }
 
-
 function stop() {}
 
+function beep(vol, freq, duration){
+  v=a.createOscillator()
+  u=a.createGain()
+  v.connect(u)
+  v.frequency.value=freq
+  v.type="square"
+  u.connect(a.destination)
+  u.gain.value=vol*0.01
+  v.start(a.currentTime)
+  v.stop(a.currentTime+duration*0.001)
+}
 
 

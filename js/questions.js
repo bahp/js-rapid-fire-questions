@@ -1,8 +1,8 @@
 
 var questions_by_topic = {
-  "generic": [
+  "Generic": [
     "If you could be any animal what would it be and why?",
-    "What is one of the things you would put on your “bucket” list?",
+    "What is one of the things you would put on your 'bucket' list?",
     "Who is your favorite super hero and why?",
     "Who do you admire the most?",
     "What is your favorite summer activity?",
@@ -14,7 +14,7 @@ var questions_by_topic = {
     "Are you a morning or a night person?",
     "What is your favorite hobby?",
     "What is one thing that annoys you the most?",
-    "What is the strangest thing you’ve ever eaten?",
+    "What is the strangest thing you have ever eaten?",
     "What is your favorite thing about someone in your family?",
     "What is one of your weird quirks?",
     "Describe your self in 3 words.",
@@ -25,13 +25,13 @@ var questions_by_topic = {
     "What is your favorite joke?",
   ],
 
-  "good": [
+  "Good": [
     "What would you do on Mars for fun?",
     "If you could get yourself anything, what would you get?",
     "Where is the worst place you could get stuck?",
-    "What would you do with your “15 minutes” of fame?",
+    "What would you do with your '15 minutes' of fame?",
     "Where would you go if you where invisible?",
-    "What is your favorite flavor of “Berty Bots every flavored beans”.",
+    "What is your favorite flavor of 'Berty Bots every flavored beans'.",
     "What is the one thing you own you wish you didn’t?",
     "Describe the perfect kiss in 3 words.",
     "What is your biggest addiction?",
@@ -49,12 +49,12 @@ var questions_by_topic = {
     "What is the meanest thing you’ve ever said to someone?",
   ],
 
-  "best": [
+  "Best": [
     "If you could get a yacht what would you call it?",
     "What is your life long dream?",
     "If you could talk to the President what would you talk about?",
     "Have you ever tried to do something you know you would be really bad at, what was it?",
-    "On a scale of 1 to 10 how “cool” are you?",
+    "On a scale of 1 to 10 how 'cool' are you?",
     "What is the best advantage to being really tall?",
     "How long does it take you to get ready in the morning?",
     "What is the one thing you have always wanted to do?",
@@ -74,13 +74,13 @@ var questions_by_topic = {
     "What compliment does people give you the most?",
   ],
 
-  "random": [
+  "Random": [
     "Nickname?",
     "Sub or dom?",
     "What is your best childhood memory?",
     "Favorite color?",
     "Are you single?",
-    "What do you think of when I say, “fruit?”",
+    "What do you think of when I say, 'fruit'?",
     "Do you always wear your seat belt?",
     "Have you been in a car accident?",
     "Any pet peeves?",
@@ -98,7 +98,7 @@ var questions_by_topic = {
     "Has your world ever been rocked?",
   ],
 
-  "rapid": [,
+  "Rapid": [,
     "What word would you add to the dictionary if you could, what would it mean?",
     "What product would you refuse to promote?",
     "What is your favorite pet’s name?",
@@ -124,7 +124,7 @@ var questions_by_topic = {
     "What fortune would you want to get from a fortune cookie?",
   ],
 
-  "rapid-friends": [
+  "Rapid-friends": [
     "What is one food you wouldn’t want to give up?",
     "If you won a million dollars what would you buy?",
     "If you had access to a time machine where and when would you go?",
@@ -155,7 +155,7 @@ var questions_by_topic = {
     "Are you a morning or a night person?",
   ],
 
-  "rapid-couples": [
+  "Rapid-couples": [
     "Have you ever been in love?",
     "What is success?",
     "What secret would you like to tell me?",
@@ -205,7 +205,7 @@ var questions_by_topic = {
     "Last person you touched?",
   ],
 
-  "rapid-boys": [,
+  "Rapid-boys": [,
     "Which historical figure wins the award for being most hardcore?",
     "What issue do most people think is black and white but you think there is a lot nuance to?",
     "If you have children what career do you hope they peruse and what career would you never want them to get into?",
@@ -217,12 +217,12 @@ var questions_by_topic = {
     "What commercial convinced you NOT to buy the product they are pushing?",
     "What is the most useless major in college?",
     "What is something most people do easily but you find very difficult?",
-    "What job doesn’t exist but should?",
+    "What job doesn't exist but should?",
     "What TV news story is getting more attention than it should?",
     "What is the most impressive thing you know how to do?",
   ],
 
-  "rapid-girls": [
+  "Rapid-girls": [
     "What is the ugliest vegetable?",
     "What product would you seriously stockpile if you found out they weren’t going to sell it anymore?",
     "What is the absolute worst movie you have ever seen?",
@@ -243,7 +243,7 @@ var questions_by_topic = {
     "Would you go to another planet even if it meant that you would never return to earth and eventually die on that planet?",
   ],
 
-  "rapid-flirty": [
+  "Rapid-flirty": [
     "What did you first think of me?",
     "Who is your celebrity crush?",
     "Would you rather be considered sexy or smart?",
@@ -257,7 +257,7 @@ var questions_by_topic = {
     "Would you prefer to make out or cuddle? Or make out, then cuddle?",
   ],
 
-  "rapid-bestfriend": [
+  "Rapid-bestfriend": [
     "How many times have you fallen in love?",
     "What inspires you the most?",
     "If you needed one, what would your DJ name be?",
