@@ -1,0 +1,80 @@
+/*@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}*/
+
+/*no-repeat center center fixed; */
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("../images/background-small.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+html { 
+  background: url("../images/background-large.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  top:500px;
+  color: black;
+}
+
+.center {
+  text-align:center;
+  margin:auto;
+}
+
+.flex-center {
+  background-color: gray;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  border: 2px #000000;
+  background: rgba(128, 128, 128, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  resize: vertical;
+  overflow: auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight:bold;
+  padding:10px 10px 10px 10px;
+}
+
+button, #topic {
+  height: 30px;
+  padding-right:25px;
+  padding-left:25px;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom:5px;
+}
+
+input {
+  height: 25px;
+  border-radius: 3px;
+}
+
+/*
+#progressbar {
+  margin: 20px;
+  width: 400px;
+  height: 8px;
+}*/

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta information -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Import CSS -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Import JavaScript -->
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="js/questions.js"></script>
+  <script src="js/progressbar.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+<body>
+
+  <br><br>
+
+  <!-- The title -->
+  <h1 class='center'>Rapid-Fire Questions</h1>
+
+  <br><br>
+
+  <select id="topic">
+    <option>Please choose one topic</option>
+  </select>
+
+  <!-- The question -->
+  <div id='question' class='flex-center'>
+    None
+  </div>
+
+  <!-- The timer -->
+  <div id='progressbar'></div>
+
+  <!-- The button -->
+  <button id='play' onclick='play()'>Play</button>
+  <button id='pause' onclick='pause()'>Pause</button>
+  <button id='next' onclick='next()'>Next</button>
+
+  <!-- Configuration -->
+  <input type="number" id="duration" name="time" min="5" value="10">
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div style='height:1500px'></div>
+
+</body>
+</html>
